@@ -2,7 +2,7 @@
 
 An n8n workflow that takes a job title and a location over a webhook, has Apify scrape matching LinkedIn postings, writes every job into Google Sheets, and replies with a short AI summary of who is hiring and where.
 
-I built this for the Module 4 assignment of my automation course. The brief described a recruitment agency whose recruiters spend each morning searching LinkedIn for new software engineering jobs, pasting the listings into a spreadsheet, and sending them to candidates. This workflow handles the searching and the spreadsheet part with a single HTTP request.
+The use case is a recruitment agency that places software engineers. Every morning its recruiters search LinkedIn for newly posted jobs, paste the listings into a spreadsheet, and send them to candidates. This workflow handles the searching and the spreadsheet part with a single HTTP request.
 
 ![n8n workflow canvas](screenshots/workflow-canvas.jpg)
 
